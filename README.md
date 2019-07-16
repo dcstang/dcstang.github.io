@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jekyll Resume Theme
 
 Live demo at https://jekyll-theme-minimal-resume.netlify.com/
@@ -92,3 +93,4 @@ In order to compile the assets and run `Jekyll` locally you need to follow those
 `btc: 36V7HqqENSKn6iFCBuE4iCdtB29uGoCKzN`
 
 `eth: 0xB419E3E9fa2233383E0877d442e55C34B9C944dD`
+=======
