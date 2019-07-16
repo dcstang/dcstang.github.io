@@ -30,7 +30,7 @@ markdown: kramdown
   hard_wrap: false
 future: true
 jailed: false
-theme: jekyll-theme-primer
+theme: minima
 gfm_quirks: paragraph_end
 
 # Exclude from processing.
