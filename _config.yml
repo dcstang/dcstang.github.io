@@ -40,3 +40,13 @@ texture:
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+#making default frontmatter
+#defaults:
+#  -
+#    scope:
+#      path:
+#      type:
+#    values:
+#      #values here
+#      layout:
