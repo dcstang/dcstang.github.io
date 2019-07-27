@@ -5,8 +5,9 @@ description: My first project into the world of Kaggle, and data science!
 date:   2019-07-23 21:03:36 +0530
 categories: Kaggle
 tags: [python, Kaggle, first-steps]
+permalink: pretty
 ---
-*Today Marks the first time I submitted an entry to a Kaggle competition, and boy can I tell you how exhilarating it is!*
+Today Marks the first time I submitted an entry to a Kaggle competition, and boy can I tell you how exhilarating it is!
 
 # Origins
 I first created my Kaggle profile on 12 July 2019, that’s a mere 11 days ago. Do note, I have no prior experience in machine learning and data science. My degree is in healthcare, and I can assure you - being born into a family, growing up and then working in this field for essentially my whole life, that most doctors have a less than desirable hold on math.
