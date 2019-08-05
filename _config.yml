@@ -15,20 +15,21 @@ texture:
   tagline: Health * AI
   date_format: "%b %-d, %Y"
   style: black
-  showNav: true
+  showNav: false
   showPicker: false
 
   # generate social links in footer
   social_links:
     twitter: TangibleTech1
     github:  dcstang
-    linkedIn: tobeadded
+    linkedIn: david-tang-mrcp
 
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
+ - home.md
 
 # Build settings
 # theme: texture
