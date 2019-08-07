@@ -1,55 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+<nav id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+        {% assign links = site.data.navigation %}
+        {% for link in links %}
+            {% assign class = nil %}
+            {% if page.url contains link.url %}
+                {% assign class = 'active' %}
+            {% endif %}
+            {% if link.sublinks %}
+                <li class="dropdown {{ class }}">
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in link.sublinks %}
+                            {% if sublink.title == 'separator' %}
+                                <li role="separator" class="divider"></li>
+                            {% else %}
+                                <li>
+                                    <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="{{ class }}">
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
 <head>
-	<style>
-	body {margin:0;}
-
-	ul {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	  overflow: hidden;
-	  background-color: #333;
-	  position: fixed;
-	  top: 0;
-	  width: 100%;
-	}
-
-	li {
-	  float: left;
-	}
-
-	li a {
-	  display: block;
-	  color: white;
-	  text-align: center;
-	  padding: 14px 16px;
-	  text-decoration: none;
-	}
-
-	li a:hover:not(.active) {
-	  background-color: #111;
-	}
-
-	.active {
-	  background-color: #4CAF50;
-	}
-	</style>
-	</head>
-	<body>
-
-	<ul>
-	  <li><a class="active" href="https://dcstang.github.io">Home</a></li>
-	  <li><a href="https://dcstang.github.io/about.html">About</a></li>
-	</ul>
-
-	{%- include head.html -%}
-
-
+		{%- include head.html -%}
 </head>
-
-
-
 <body>
 	<header class="texture-{{ site.texture.style }}">
 		<div class="container">
