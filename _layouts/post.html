@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+	body {margin:0;}
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+	  background-color: #111;
+	}
+
+	.active {
+	  background-color: #4CAF50;
+	}
+	</style>
+	</head>
+	<body>
+
+	<ul>
+	  <li><a class="active" href="https://dcstang.github.io">Home</a></li>
+	  <li><a href="https://dcstang.github.io/about.html">About</a></li>
+	</ul>
+
   {%- include head.html -%}
 </head>
 <body>
@@ -8,7 +50,7 @@
     <div class="container">
       {%- include nav.html -%}
     </div>
-    {%- include post_header.html -%}  
+    {%- include post_header.html -%}
   </header>
   <main>
     <div class="container">

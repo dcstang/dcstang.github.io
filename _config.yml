@@ -12,7 +12,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: David Tang
-  tagline: Health * AI
+  tagline: Healthcare x AI
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
@@ -23,6 +23,7 @@ texture:
     twitter: TangibleTech1
     github:  dcstang
     linkedIn: david-tang-mrcp
+    kaggle: dcstang
 
 
 # If you want to link only specific pages in your header, uncomment
