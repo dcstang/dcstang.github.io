@@ -8,11 +8,10 @@ tags: AI
 permalink: pretty
 ---
 
-need to change up intro a smidge
+In the last decade we have seen much media coverage about the artificial intelligence revolution. The idea of self-driving cars, auto-recommender systems (ie. Netflix), and automatic fraud detection in banking is not a foreign concept to most of us. However, we do not see such coverage in the health industry.
+Is healthcare falling behind in the arms race of artificial intelligence and machine learning?
 
-Today I came across a highly relevant talk on Open Source Data Centre (OSDC), which I will link in the references below. The speaker was talking about the challenges of implementing AI in the healthcare and biotechnology space. It is interesting to note that other industries, such as finance and insurance have already been implementing AI / data science and analytics in their workflow for almost 2 decades. There is an obvious benefit having an edge over a competitor in those industries, which is earning more money!
-
-These are the challenges that are currently faced on implementation:
+I would like to explore the challenges specific to the industry:
 1. Industry niche & unique characteristics
 2. Ethical considerations
 3. Lack of traditional data scientists
@@ -53,7 +52,7 @@ A majority of them are in tech and finance. I don't see anyone in health at all!
 ### 4 - Scaling costs
 It is inspiring that other industries are implementing futuristic technology in their workflow. In the food industry for example, there is automatic weighing and detection of food waste. This can then directly lead to cost saving models.
 
-Turns out there is a scaling issue with medical images it isn't all that easy. There is a significant cost for  data labelling. It is estimated that to get a decent training dataset of 20,000 CT scans will cost USD$500,000 to $1M just to get the manpower to correctly label these medical images. One will require a highly trained individual called the radiologist to go through the images and annotate them correctly. 
+Turns out there is a scaling issue with medical images it isn't all that easy. There is a significant cost for  data labelling. It is estimated that to get a decent training dataset of 20,000 CT scans will cost USD$500,000 to $1M just to get the manpower to correctly label these medical images. One will require a highly trained individual called the radiologist to go through the images and annotate them correctly.
 
 Size is an issue too. Medical imaging usually studies a part of the body intricately. To do this properly requires a large amount of images to be taken. For example, a cardiac CT will usually take up 18,000 images and up to 36GB of data for one patient. This is another one of the hurdles when developing AI techniques in this space.
 
