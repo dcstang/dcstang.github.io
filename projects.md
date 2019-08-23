@@ -68,33 +68,28 @@ div img {
 
 </style>
 
----
-layout: page
----
-
 # Projects
 
 
 <div class = "flexContainer">
 
-<div class = "project">
-  <a href="https://www.kaggle.com/dcstang/bqml-bikeshare-deep-dive">
-  <img class="projImg" src="http://dcstang.github.io/assets/blog_pics/kaggleicon.jpg" >
-  <h3>Bikeshare Geospatial Visualization</h3>
-  <p>Kaggle Kernel on Google Open Bikeshare dataset in Austin, Tx from 2013-2019 | Total 1.1M rows<br>
-      Technologies incorporated: Bigquery, SQL, Pandas, Matplotlib, Geopandas, Python </p>
-  </a>
-</div>
+  <div class = "project">
+    <a href="https://www.kaggle.com/dcstang/bqml-bikeshare-deep-dive">
+    <img class="projImg" src="http://dcstang.github.io/assets/blog_pics/kaggleicon.jpg" >
+    <h3>Bikeshare Geospatial Visualization</h3>
+    <p>Kaggle Kernel on Google Open Bikeshare dataset in Austin, Tx from 2013-2019 | Total 1.1M rows<br>
+        Technologies incorporated: Bigquery, SQL, Pandas, Matplotlib, Geopandas, Python </p>
+    </a>
+  </div>
 
-<div class = "project">
-  <a href="https://github.com/dcstang/posture-detection">
-  <img src="http://dcstang.github.io/assets/blog_pics/opencv_logo.png">
-  <h3>Posture Detection with Python</h3>
-  <p>Work in progress - done live face detection via computer webcam access. Working on image segmentation and masking, and incorporating posture calculation.
-      Technologies incorporated: Python, OpenCV, HaarCascades, Machine Learning
-    </p>
-</div>
-
+  <div class = "project">
+    <a href="https://github.com/dcstang/posture-detection">
+    <img src="http://dcstang.github.io/assets/blog_pics/opencv_logo.png">
+    <h3>Posture Detection with Python</h3>
+    <p>Work in progress - done live face detection via computer webcam access. Working on image segmentation and masking, and incorporating posture calculation.
+        Technologies incorporated: Python, OpenCV, HaarCascades, Machine Learning
+      </p>
+  </div>
 </div>
 
 <!--
