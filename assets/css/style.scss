@@ -64,20 +64,7 @@
 #nav li:hover > a {
     color: #00B4FF;
 }
-#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
-    background: none repeat scroll 0 0 #121212;
-    outline: 0 none;
-}
-#nav li:hover ul.subs {
-    left: 0;
-    top: 53px;
-    width: 180px;
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -o-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-}
+
 #nav ul li {
     background: none;
     width: 100%;
@@ -86,7 +73,6 @@
     float: none;
 }
 #nav ul li:hover > a {
-    background-color: #121212;
     color: #00B4FF;
 }
 
