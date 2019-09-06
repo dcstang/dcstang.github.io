@@ -10,9 +10,10 @@
     padding: 0;
 }
 #nav {
+    font-family: 'Nunito Sans', sans-serif;
+    @include fluidType(16px, 19px);
     background-color: black;
     clear: both;
-    font-size: 12px;
     height: 58px;
     padding: 0 0 0 9px;
     position: relative;
