@@ -35,8 +35,10 @@
     </div>
     <a href="https://github.com/dcstang/posture-detection" class="w3-button w3-block w3-dark-grey">View</a>
   </div>
+  <br/>
+  <p> best viewed on pc </p>
 </div>
-<div class = "flexContainer">
+
 
 
 

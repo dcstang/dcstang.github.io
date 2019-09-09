@@ -1,7 +1,7 @@
 title: Health * AI
 author: dcstang
 email: N/A
-description: Where Health meets AI - learning for the future!
+description: The intersection of health & artificial intelligence.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,7 +12,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: David Tang
-  tagline: Healthcare x AI
+  tagline: The intersection of health & artificial intelligence.
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
@@ -20,7 +20,6 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: TangibleTech1
     github:  dcstang
     linkedIn: david-tang-mrcp
     kaggle: dcstang
