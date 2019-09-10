@@ -3,13 +3,26 @@
 
 # Portfolio
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<div class="w3-container" style="width:70%" align="center">
+<div class="w3-container" style="width:85%" align="center">
   <h2>List of Projects</h2>
 
+  <div class="w3-card-4 card" style="width:90%">
+    <header class="w3-container w3-light-grey">
+      <h3 align="center">Interactive Data Visualization</h3>
+    </header>
+    <div class="w3-container">
+      <p align="center">5 interactive charts with Roosevelt National Park dataset</p>
+      <hr>
+      <img src="http://dcstang.github.io/assets/blog_pics/kaggleicon.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+      <p>Technologies incorporated: Pandas, Matplotlib, Bokeh, Holoviews, Python, Kaggle Notebook </p><br>
+    </div>
+    <a href="https://www.kaggle.com/dcstang/interactive-exploratory-data-analysis-eda" class="w3-button w3-block w3-dark-grey">View</a>
+  </div>
+  <br/>
   <div class="w3-card-4 card" style="width:90%">
     <header class="w3-container w3-light-grey">
       <h3 align="center">Bikeshare Geospatial Visualization</h3>
