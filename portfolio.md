@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<div class="w3-container" style="width:85%" align="center">
+<div class="w3-container" style="width:100%" align="center">
   <h2>List of Projects</h2>
 
   <div class="w3-card-4 card" style="width:90%">
