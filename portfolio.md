@@ -8,9 +8,9 @@
 <body>
 
 <div class="w3-container" style="width:100%" align="center">
-  </br>
+  <br/>
 
-  <div class="w3-card-4 card" style="width:90%">
+  <div class="w3-card-4 card" style="width:100%">
     <header class="w3-container w3-light-grey">
       <h3 align="center">Interactive Data Visualization</h3>
     </header>
@@ -41,7 +41,7 @@
       <h3 align="center">Posture Detection with Python</h3>
     </header>
     <div class="w3-container">
-      <p align="center">Work in progress - done live face detection via computer webcam access. Working on image segmentation and masking, and incorporating posture calculation.</p>
+      <p align="center">Development phase - live face detection via computer webcam access. Working on image segmentation and masking, and incorporating posture calculation.</p>
       <hr>
       <img src="http://dcstang.github.io/assets/blog_pics/opencv_logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
       <p>Technologies incorporated: Python, OpenCV, HaarCascades, Machine Learning</p><br>
