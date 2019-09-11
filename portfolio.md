@@ -8,7 +8,7 @@
 <body>
 
 <div class="w3-container" style="width:100%" align="center">
-  <h2>List of Projects</h2>
+  </br>
 
   <div class="w3-card-4 card" style="width:90%">
     <header class="w3-container w3-light-grey">
@@ -49,7 +49,6 @@
     <a href="https://github.com/dcstang/posture-detection" class="w3-button w3-block w3-dark-grey">View</a>
   </div>
   <br/>
-  <p> best viewed on pc </p>
 </div>
 
 

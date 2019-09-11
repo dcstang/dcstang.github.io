@@ -1,7 +1,7 @@
-title: Health * AI
+title: Healthcare x AI
 author: dcstang
 email: N/A
-description: The intersection of health & artificial intelligence.
+description: Medicine, Mind & Machine.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,7 +12,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: David Tang
-  tagline: The intersection of health & artificial intelligence.
+  tagline: Medicine, Mind & Machine.
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
