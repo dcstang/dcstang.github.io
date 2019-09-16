@@ -23,20 +23,29 @@
     <a href="https://www.kaggle.com/dcstang/interactive-exploratory-data-analysis-eda" class="w3-button w3-block w3-dark-grey">View</a>
   </div>
   <br/>
-  <div class="w3-card-4 card" style="width:90%">
+  <div class="w3-card-4 card" style="width:100%">
     <header class="w3-container w3-light-grey">
-      <h3 align="center">Bikeshare Geospatial Visualization</h3>
+      <h3 align="center">BigQuery Machine Learning</h3>
     </header>
     <div class="w3-container">
-      <p align="center">Kaggle Kernel on Google Open Bikeshare dataset in Austin, Tx from 2013-2019 | Total 1.1M rows</p>
+      <p align="center">Created a linear regression model to predict the average number of bike rentals per station per hour, based on 6 years of prior trip data</p>
       <hr>
       <img src="http://dcstang.github.io/assets/blog_pics/kaggleicon.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-      <p>Technologies incorporated: Bigquery, SQL, Pandas, Matplotlib, Geopandas, Python </p><br>
+      <p>Technologies incorporated: Bigquery, BQML, SQL, Pandas, Matplotlib, Python </p><br>
     </div>
-    <a href="https://www.kaggle.com/dcstang/bqml-bikeshare-deep-dive" class="w3-button w3-block w3-dark-grey">View</a>
+    <a href="https://www.kaggle.com/dcstang/bigquery-ml-austin-bike-share-2013-2019" class="w3-button w3-block w3-dark-grey">View</a>
   </div>
   <br/>
-  <div class="w3-card-4 card" style="width:90%">
+  <div class="w3-container">
+    <p align="center">Kaggle Kernel on Google Open Bikeshare dataset in Austin, Tx from 2013-2019 | Total 1.1M rows</p>
+    <hr>
+    <img src="http://dcstang.github.io/assets/blog_pics/kaggleicon.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+    <p>Technologies incorporated: Bigquery, SQL, Pandas, Matplotlib, Geopandas, Python </p><br>
+  </div>
+  <a href="https://www.kaggle.com/dcstang/bqml-bikeshare-geovisualization-of-trips" class="w3-button w3-block w3-dark-grey">View</a>
+</div>
+<br/>
+  <div class="w3-card-4 card" style="width:100%">
     <header class="w3-container w3-light-grey">
       <h3 align="center">Posture Detection with Python</h3>
     </header>
