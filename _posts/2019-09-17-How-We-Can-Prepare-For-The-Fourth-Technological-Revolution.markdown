@@ -27,4 +27,4 @@ On the downside, this drastic change brought other issues for society to contend
 
 >"AI is the new Electricity." - Andrew Ng, of founding.ai
 
-To be prepared for the fourth technological revolution, one should have the right skills. A highly skilled worker will be greatly valued. 
+Be prepared for the fourth technological revolution, have the right skills. AI will not replace doctors, but doctors who use AI will.

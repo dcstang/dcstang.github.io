@@ -12,7 +12,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: David Tang
-  tagline: Medicine, Mind & Machine.
+  tagline: Machine, Mind & Medicine.
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
