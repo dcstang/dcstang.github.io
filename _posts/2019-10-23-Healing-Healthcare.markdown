@@ -12,7 +12,7 @@ Even within the world's best and well-funded healthcare system, there are pressi
 
 One thing that stood out to me was the growing size of people waiting to receive specialist treatment.
 
-![growing_numbers][https://www.kingsfund.org.uk/sites/default/files/styles/media_large/public/2018-06/figure1-qmr26.png?itok=Mg2Q9c3X]
+<img src="https://www.kingsfund.org.uk/sites/default/files/styles/media_large/public/2018-06/figure1-qmr26.png?itok=Mg2Q9c3X" alt="KF" width="500" height="210">
 
 Over the years, the number of people on waiting lists is slowly creeping up. With over 4 million on the waiting list, is this a sign of the lack of specialists, inefficiency in the system, inadequate spending or increased demand? While there are probably a multitude of reasons, one thing is for sure - actual people who are sick and require treatment are not receiving it fast enough.
 
